@@ -1,5 +1,5 @@
 name: interpolate
-version: 0.1.0
+version: 0.1.1
 category: Data, Text
 stability: experimental
 synopsis: String interpolation done right
@@ -16,7 +16,7 @@ ghc-options: -Wall
 dependencies:
   - base == 4.*
   - template-haskell
-  - haskell-src-meta
+  - haskell-src-meta >= 0.8
 
 source-dirs: src
 
