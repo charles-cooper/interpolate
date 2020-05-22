@@ -1,5 +1,5 @@
 name: interpolate
-version: 0.1.1
+version: 0.2.0
 category: Data, Text
 stability: experimental
 synopsis: String interpolation done right
@@ -36,3 +36,4 @@ tests:
       - hspec >= 1.5
       - QuickCheck
       - quickcheck-instances
+      - base-compat
